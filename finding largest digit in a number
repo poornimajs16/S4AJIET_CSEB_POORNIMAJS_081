@@ -1,0 +1,16 @@
+class Main{
+    public static void main(String[] args){
+        int a=2519876;
+        int lar=0;
+        while(a!=0)
+        {
+            int dig=a%10;
+            if(dig>lar)
+            {
+                lar=dig;
+            }
+            a=a/10;
+        }
+        System.out.println("Largest digit:"+lar);
+    }
+}
