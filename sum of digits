@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        int a,b,c,d;
+        a=100;
+        b=50;
+        c=50;
+        d=a+b+c;
+        System.out.println("Sum of a+b+c is:"+d);
+    }
+}
