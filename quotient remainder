@@ -1,0 +1,11 @@
+class program {
+    public static void main(String[] args) {
+        int a,r;
+        int n=10;
+        int m=5;
+        a=n/m;
+        r=n%m;
+        System.out.print("Quotient:"+a);
+        System.out.print("Remainder:"+r);
+    }                                                         
+}
